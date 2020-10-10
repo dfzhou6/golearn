@@ -32,5 +32,8 @@ func main() {
 	fmt.Println("st1.name:", st1.name)
 	fmt.Println("(*p).name:", (*p).name)
 	fmt.Println("&p:", &p)
+	st1.name = "shantou"
+	fmt.Println("st1.name:", st1.name)
+	fmt.Println("p.name:", p.name)
 	
 }
